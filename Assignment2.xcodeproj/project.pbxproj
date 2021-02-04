@@ -13,6 +13,7 @@
 		AEBF842925CA895C00426A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBF842725CA895C00426A21 /* Main.storyboard */; };
 		AEBF842B25CA895E00426A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBF842A25CA895E00426A21 /* Assets.xcassets */; };
 		AEBF842E25CA895E00426A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBF842C25CA895E00426A21 /* LaunchScreen.storyboard */; };
+		AEBF843725CA8A3C00426A21 /* Quotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBF843625CA8A3C00426A21 /* Quotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AEBF842A25CA895E00426A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBF842D25CA895E00426A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEBF842F25CA895E00426A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEBF843625CA8A3C00426A21 /* Quotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				AEBF842125CA895C00426A21 /* AppDelegate.swift */,
 				AEBF842325CA895C00426A21 /* SceneDelegate.swift */,
-				AEBF842525CA895C00426A21 /* ViewController.swift */,
 				AEBF842725CA895C00426A21 /* Main.storyboard */,
 				AEBF842A25CA895E00426A21 /* Assets.xcassets */,
 				AEBF842C25CA895E00426A21 /* LaunchScreen.storyboard */,
 				AEBF842F25CA895E00426A21 /* Info.plist */,
+				AEBF842525CA895C00426A21 /* ViewController.swift */,
+				AEBF843625CA8A3C00426A21 /* Quotation.swift */,
 			);
 			path = Assignment2;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				AEBF842625CA895C00426A21 /* ViewController.swift in Sources */,
 				AEBF842225CA895C00426A21 /* AppDelegate.swift in Sources */,
+				AEBF843725CA8A3C00426A21 /* Quotation.swift in Sources */,
 				AEBF842425CA895C00426A21 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
